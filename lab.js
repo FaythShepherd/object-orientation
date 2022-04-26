@@ -518,13 +518,15 @@ class Boat extends Vehicle{
 
 //Code Here
 
-let myF
+let myFirstBoat = new Boat(10, 'maroon', 5000, 'FastBoats', false);
 
 /*
   Call the checkSeaworthiness method on your new boat
 */
 
 //Code Here
+myFirstBoat.checkSeaworthiness();
+console.log(myFirstBoat);
 
 /*
   Now run the performMaintenance method on your boat
@@ -532,8 +534,12 @@ let myF
 
 //Code Here 
 
+myFirstBoat.performMaintenance();
+
 /*
   Check the seaworthiness once more (you should be ready for the water!)
 */
 
 //Code Here
+
+myFirstBoat.checkSeaworthiness();
